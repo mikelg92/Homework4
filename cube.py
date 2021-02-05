@@ -4,9 +4,9 @@
 #l = length
 #w = width
 
-h = int(input("enter height: "))
-l = int(input("enter lenght: "))
-w = int(input("enter width: "))
+h = float(input("enter height: "))
+l = float(input("enter lenght: "))
+w = float(input("enter width: "))
 
 volume = h*l*w
 
