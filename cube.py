@@ -4,9 +4,9 @@
 #l = length
 #w = width
 
-h = 4
-l = 6
-w = 6
+h = int(input("enter height: "))
+l = int(input("enter lenght: "))
+w = int(input("enter width: "))
 
 volume = h*l*w
 
