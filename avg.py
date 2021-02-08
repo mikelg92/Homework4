@@ -5,12 +5,12 @@ def calAvg(num):
 
   avg = sumNum / len(num)
   return avg
-
- def chkZero(lis):
-     if len(lis) == 0:
-         return 0
-     else:
-         return 1
+  
+def chkZero(lis):
+    if len(lis) == 0:
+        return 0
+    else:
+        return 1
 
 while True:
     try:
