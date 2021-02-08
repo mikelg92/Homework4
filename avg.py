@@ -6,6 +6,13 @@ def calAvg(num):
   avg = sumNum / len(num)
   return avg
 
+ def chkZero(lis):
+     if len(lis) == 0:
+         return 0
+     else:
+         return 1
+
+
 while True:
     try:
         a = float(input("enter number: "))
@@ -17,4 +24,5 @@ while True:
     except ValueError:
         print("invalid number, only positive numbers.")
 
+l = [a,b,c,d,e]
 print("The average: ", calAvg([a,b,c,d,e]))
