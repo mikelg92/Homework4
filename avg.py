@@ -12,7 +12,6 @@ def calAvg(num):
      else:
          return 1
 
-
 while True:
     try:
         a = float(input("enter number: "))
@@ -25,4 +24,9 @@ while True:
         print("invalid number, only positive numbers.")
 
 l = [a,b,c,d,e]
-print("The average: ", calAvg([a,b,c,d,e]))
+chkZero(l)
+if chkZero(l):
+    print("not empty")
+    print("The average: ", calAvg([a,b,c,d,e]))
+else:
+    print("empty")
