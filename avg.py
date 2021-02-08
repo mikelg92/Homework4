@@ -6,4 +6,11 @@ def calAvg(num):
   avg = sumNum / len(num)
   return avg
 
-print("The average: ", calAvg([18,25,3,41,5]))
+
+a = float(input("enter number: "))
+b = float(input("enter number: "))
+c = float(input("enter number: "))
+d = float(input("enter number: "))
+e = float(input("enter number: "))
+
+print("The average: ", calAvg([a,b,c,d,e]))
